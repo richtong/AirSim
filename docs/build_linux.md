@@ -55,7 +55,10 @@ needs the llvm@12 for Unreal Engine 2.26 and higher.
 The setup script will attempt to install the right version of cmake, llvm, and eigen. The variables to inspect
 in the script are `CC` and `CXX` variables that set by build.sh and make sure they match your version of macOS.
 
+Make sure you have the latest version of Bash (the installed default is Bash 3.x very old) currently Bash 5.x
+
 ```bash
+brew install bash
 ./setup.sh
 ./build.sh
 # use ./build.sh --debug to build in debug mode
